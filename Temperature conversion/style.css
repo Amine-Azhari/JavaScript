@@ -1,0 +1,40 @@
+body{
+    background-color: #222;
+    margin:auto;
+}
+
+h1{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    width: 17rem;
+    height: auto;
+    background: linear-gradient(#b7fe28, rgb(39, 169, 224));
+    text-align: center;
+    align-items: baseline;
+    border-radius: 1rem;
+    margin: 50px auto;
+}
+
+#myinput{
+    width: 13rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+#mysubmit{
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+#mysubmit:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    cursor: pointer;
+}
