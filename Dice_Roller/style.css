@@ -1,0 +1,43 @@
+body{
+    background-color: #222;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.card{
+    height: auto;
+    width: 22rem;
+    background: linear-gradient(52deg,#8E93F6, #F1B0F1, #F6D5AF);
+    text-align: center;
+    border-radius: 2rem;
+}
+
+#dice-container{
+    height: auto;
+    width: 22rem;
+}
+
+
+.image{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+/*ANIMATION--------*/
+@keyframes rotation{
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+/*-----------------*/
+
+.image{
+    animation: rotation 500ms ease;
+}
